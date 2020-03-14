@@ -41,7 +41,7 @@ by reversing the VM, or by reversing the bytecode file.
 I started of reversing the VM using radare2 and cutter, but didn't really any anywhere.
 Next up I tried opening the bytecode file using a hex editor.
 
-[images/bless-1.png]
+[Bytecode file in Bless hex editor](images/bless-1.png)
 
 If we assume that instruction execution starts at the very first byte, we see a
 pattern emerge. If you don't see the pattern immediately, try group every five
